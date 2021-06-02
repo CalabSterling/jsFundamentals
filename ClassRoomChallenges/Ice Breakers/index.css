@@ -1,0 +1,52 @@
+body {
+    background-color: #264653;
+    color: #f4a261;
+}
+
+#header {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    color: #e9c46a;
+}
+h2 {
+    color: #e76f51;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.container > div:nth-child(1){
+    flex: 1;
+}
+
+.container > div:nth-child(2){
+    flex: 3;
+}
+
+img {
+    max-width: 250px;
+}
+
+#handImage {
+    border: dotted 4px #2a9d8f;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fingerAssign {
+    padding: 5% 5%;
+    list-style-type: none;
+
+}
+
+#line {
+    padding: 1%;
+    margin: 2%;
+    border: solid 2px #2a9d8f;
+    max-width: 50%;
+}

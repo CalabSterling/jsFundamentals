@@ -1,0 +1,20 @@
+.jumbotron {
+    background: url(../assests/coffee.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: var(--egg);
+}
+
+.jumbo-container {
+    padding-top: 25%;
+}
+
+.jumbo-header{
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbo-para {
+    font-size: 25px;
+    font-weight: bold;
+}

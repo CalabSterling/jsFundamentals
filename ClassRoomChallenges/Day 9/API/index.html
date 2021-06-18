@@ -15,33 +15,29 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h1 class="teamName">Team 1</h1>
-          <p>Total Points: <span id="team1points">10</span></p>
+        <div class="col-4 m-4">
+          <h3>Click the Button</h3>
+          <p>Once you click the button you will be able to see the fetch </p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button" onclick="calculatePoints('team1', 1)">
-              Add Team 1 Button
-            </button>
-            <button class="btn btn-primary" type="button" onclick="calculatePoints('team1', -1)">
-              Subtract Team 1 Button
+          
+              <!-- TODO: ADD AN ID TO THE BUTTON. Use the id of button-fetch -->
+            <button class="btn btn-primary" type="button" id="button-fetch" >
+              Click Button to Fetch
             </button>
           </div>
         </div>
         <div class="col">
-          <h1 class="teamName">Team 2</h1>
-          <p>Total Points: <span id="team2points">10</span></p>
-          <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button" onclick="calculatePoints('team2', 1)">
-              Add Team 2 Button
-            </button>
-            <button class="btn btn-primary" type="button" onclick="calculatePoints('team2', -1)">
-              Subtract Team 2 Button
-            </button>
+          <h4>Your Fetch will be displayed here</h4>
+          <div id="display-fetch" type="reset">
+              <!-- TODO: WHERE THE FETCH WILL BE DISPLAYED. Add an id of display-fetch-->
+          </div>
+    
           </div>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- TODO: LINK YOUR JS FILE -->
     <script src="./index.js"></script>
   </body>
 </html>
